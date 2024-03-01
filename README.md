@@ -79,7 +79,6 @@ Likewise for `python` and `pip` for package installation.
 ```
 $ python --version
 
-$ pip install -r requirements.txt
 ```
 ### Setup
 
@@ -98,7 +97,13 @@ In the terminal, run these commands to get into development.
 ```
 $ cd wikipedia-blocking-policies
 
+$ pip install -r requirements.txt
+
 ```
+
+The required data folder can be manually downloaded from [here](https://drive.google.com/uc?id=1WHFJ6wm4ElKH4KIAsa3A1ph4Bt34VYsH) and be unzipped manually by the user.
+
+Or it can also be done automatically later while continuing with the project notebook.
 
 Now you can open the [wikipedia notebook](wikipedia.ipynb) and continue with the project.
 
